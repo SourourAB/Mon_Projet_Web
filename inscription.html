@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <form>
+   
+        <fieldset>
+            <legend>Informations Personnels  </legend>
+            <table>   
+        <tr>
+            <td>
+                <label for="nom"> Nom : </label>
+            </td>
+            <td>
+                <input type="text" name="nom" id="nom">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="date"> Date de Naissance : </label>
+            </td>
+            <td>
+                <input type="date" name="date" id="date">
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+    <table>
+        <tr>
+            <td>
+                <label for="grade"> Grade : </label>
+            </td>
+            <td>
+                <select name="grade" id="grade">
+                    <option value="grade">LT</option>
+                    <option value="grade">Cne</option>
+                    <option value="grade">Cdt</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Enregistrer">
+            </td>
+            <td>
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</fieldset>
+    </form>
+</body>
+
+</html>
